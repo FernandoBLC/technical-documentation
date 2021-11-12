@@ -1,0 +1,235 @@
+/*font-family: 'Bebas Neue', cursive;*/
+/*font-family: 'Yanone Kaffeesatz', sans-serif;*/
+*{
+    box-sizing: border-box;
+  }
+  
+  a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      font-size: inherit;
+      vertical-align: baseline;
+  }
+
+  header{
+    font-family: 'Bebas Neue', cursive;
+  }
+
+  p{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+  }
+
+  ul{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+  }
+
+  h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.8rem;
+  }
+
+  #navbar header{
+      font-size: 3rem;
+      text-align: center;
+      font-weight: 500;
+      letter-spacing: 0.09rem;
+  }
+
+  #navbar ul{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 0.03rem;
+    font-weight: 500;
+  }
+
+  #navbar{
+      border-right: solid;
+  }
+
+  #navbar{
+      border-color: cornflowerblue;
+  }
+
+  #navbar{
+      position: fixed;
+      top: 0;
+      left: 0;
+      padding-top: .8rem;
+      width: 300px;
+      height: 100%;
+      z-index: 1;
+      overflow: hidden;
+      background-color: rgb(49, 49, 49);
+      color: white;
+  }
+
+  #navbar a{
+      display: block;
+      list-style-type: none;
+      text-decoration: none;
+      padding: .7rem .7rem;
+      width: 300px;
+      color: white;
+  }
+
+  #navbar ul{
+      padding-top: .8rem;
+  }
+
+  #navbar li{
+      border-bottom: .2rem solid cornflowerblue;
+  }
+
+  #navbar li:last-child{
+      border-bottom: none;
+  }
+
+  #navbar li:first-child{
+    border-top: .2rem solid cornflowerblue;
+  }
+
+  #navbar li a:hover{
+    background-color: rgb(83, 83, 83);
+  }
+
+  #navbar li a:focus{
+      background-color: black;
+  }
+
+  #main-doc{
+      margin-left: 370px;
+  }
+
+  .main-section{
+      display: block;
+      padding-top: 1rem;
+  }
+
+  section header{
+      font-size: 3rem;
+      font-weight: 500;
+      letter-spacing: 0.02rem;
+  }
+
+  section p{
+      font-size: 1.5rem;
+      line-height: 1.7rem;
+      font-weight: 400;
+  }
+
+  #list-section h3{
+      font-size: 1.5rem;
+      font-weight: 400;
+      padding-top: .6rem;
+  }
+
+  #list-section p{
+    padding-top: 0.4rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+
+  #list-section li{
+    padding: 0.2rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  #list-section li{
+    padding-top: 0.4rem;
+  }
+
+  #list-subsection{
+      padding-top: 0.5rem;
+      font-size: 1.3rem;
+      font-weight: 400;
+  }
+
+  #list-subsection li{
+      padding: 0.2rem;
+  }
+
+
+  .fullstructure{
+      max-width: 1700px;
+      width: 100%;
+      padding-bottom: 2rem;
+  }
+
+  .space-title{
+      padding-top: 1rem;
+      font-size: 1.4rem;
+      font-weight: 400;
+  }
+
+  .title-listsection{
+      font-size: 1.6rem;
+      font-weight: 700 !important;
+  }
+
+  @media (max-width: 820px){
+    #navbar{
+        width: 150px;
+        height: 100%;  
+    }
+
+    #navbar header{
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 500;
+        letter-spacing: 0.09rem;
+    }
+  
+    #navbar ul{
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      font-size: 1.2rem;
+      letter-spacing: 0.03rem;
+      font-weight: 300;
+      width: 150px;
+    }
+
+    #navbar a{
+        display: block;
+        list-style-type: none;
+        text-decoration: none;
+        padding: .7rem .7rem;
+        width: 150px;
+        color: white;
+    }
+
+    #main-doc{
+        margin-left: 170px;
+    }
+  
+    .fullstructure{
+        max-width: 400px;
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+
+    section header{
+        font-size: 1.5rem;
+    }
+
+    section p{
+        font-size: 1.3rem;
+        line-height: 1.7rem;
+    }
+  
+    #list-section h3{
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+  
+    #list-section p{
+      font-size: 1.3rem;
+      font-weight: 300;
+    }
+  
+    #list-section li{
+      font-size: 1.3rem;
+      font-weight: 400;
+    }
+  }
